@@ -34,5 +34,5 @@ foreach ($vm in $vmName)
     Start-AzVM -ResourceGroupName $rgName -Name $vm.name
 }
 
-# Print the current status of the Virtual Machines after powering on.
+# Print the current status of the Virtual Machines after powering on..
 $vmName | Format-List Name,ProvisioningState
