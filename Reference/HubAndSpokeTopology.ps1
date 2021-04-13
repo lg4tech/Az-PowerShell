@@ -2,7 +2,7 @@
 .SYNOPSIS
 	Create a hub and spoke network layout with Az Powershell.
 .DESCRIPTION
-	This is referencing HubAndSpokeTopology architecture diagram in https://github.com/lg4tech/Az-Architecture/Networking
+	This is referencing HubAndSpokeTopology architecture diagram: https://github.com/lg4tech/Az-Architecture/blob/master/Networking/HubAndSpokeTopology.png
 .NOTES
 	AUTHOR: Lou Garramone
 	EMAIL: lou@lg4tech.com

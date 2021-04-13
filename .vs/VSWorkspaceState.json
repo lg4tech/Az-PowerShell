@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Networking",
+    "\\Reference",
     "\\VM"
   ],
+  "SelectedNode": "\\Reference\\HubAndSpokeTopology.ps1",
   "PreviewInSolutionExplorer": false
 }
