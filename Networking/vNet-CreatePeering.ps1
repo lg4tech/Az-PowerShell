@@ -1,5 +1,3 @@
-#------------------------------------------SCRIPT START-----------------------------------------#
-
 # Declare resource group.
 $resourceGroup = '<resource_group_name>'
 
@@ -72,5 +70,3 @@ $CUS2Status = Get-AzVirtualNetworkPeering `
 
 # Print peering status for all connections.
 $EU2Status,$CUS1Status,$CUS2Status
-
-#--------------------------------------------SCRIPT END-----------------------------------------#

@@ -1,5 +1,3 @@
-#------------------------------------------SCRIPT START-----------------------------------------#
-
 # Name of the resource group that contains the VMs (Virtual Machines).
 $rgName = '<resource_group_name>'
 
@@ -34,5 +32,3 @@ foreach ($vm in $vmName)
 
 # Print the current status of the Virtual Machines after powering on.
 $vmName | Format-List Name,ProvisioningState
-
-#--------------------------------------------SCRIPT END-----------------------------------------#
