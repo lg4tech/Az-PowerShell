@@ -7,6 +7,7 @@ Version - 1.0
 Prerequisites
     1. Share C:\ProgramData\ASR\home\svsystems\pushinstallsvc\repository folder from ASR Config Server
     2. Gather and store the config server IP and passphrase below.
+    3. Review line 54 with /CSEndpoint and /PassphraseFilePath values
 
 #>
 
@@ -50,4 +51,4 @@ Start-Process -FilePath "D:\tmp\UnifiedAgent.exe" -ArgumentList "/Role `"MS`" /P
 Start-Sleep 60
 
 # Run the agent configuration (hostconfigwxcommon) and register the vault by IP and passphrase.
-Start-Process -FilePath "C:\Program Files (x86)\Microsoft Azure Site Recovery\agent\UnifiedAgentConfigurator.exe" -ArgumentList "/CSEndPoint $AsrCfgSvr /PassphraseFilePath $PassphrasePath" -NoNewWindow
+Start-Process -FilePath "C:\Program Files (x86)\Microsoft Azure Site Recovery\agent\UnifiedAgentConfigurator.exe" -ArgumentList "/CSEndPoint <IP_HERE> /PassphraseFilePath <PassphrasePath_HERE>" -NoNewWindow
