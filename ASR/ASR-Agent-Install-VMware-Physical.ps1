@@ -23,8 +23,8 @@ function Start-Sleep($seconds) {
 }
 
 ########## START USER DEFINED VARIABLES #############
-$AsrCfgSvr = '172.27.0.5'
-$AsrPassphrase = 'MUGmII5jwk3VBwkM'
+$AsrCfgSvr = '<IP_HERE>'
+$AsrPassphrase = '<PASSPHRASE_HERE>'
 $PassphrasePath = 'D:\tmp\Passphrase.txt'
 ########### END USER DEFINED VARIABLES ##############
 
