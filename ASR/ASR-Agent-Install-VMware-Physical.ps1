@@ -51,4 +51,3 @@ Start-Sleep 60
 
 # Run the agent configuration (hostconfigwxcommon) and register the vault by IP and passphrase.
 Start-Process -FilePath "C:\Program Files (x86)\Microsoft Azure Site Recovery\agent\UnifiedAgentConfigurator.exe" -ArgumentList "/CSEndPoint $AsrCfgSvr /PassphraseFilePath $PassphrasePath" -NoNewWindow
-
